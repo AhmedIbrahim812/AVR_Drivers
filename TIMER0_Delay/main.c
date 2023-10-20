@@ -24,7 +24,7 @@ DIO_voidSetPinVal(PORTA_REG,PIN1,PIN_VAL_LOW);
 
 
 GIE_voidEnable();
-TIMER0_voidSetDelay(1000,func,10);
+TIMER0_voidSetDelay(1000,func,10);   //delay for 1000 ms, after 1000 ms func will be executed 10 times 
 
 
 while(1);
